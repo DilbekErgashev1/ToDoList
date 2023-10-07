@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(255, 0, 255), rgb(9, 9, 205));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+    gap: 5px;
+}
+.name-tag{
+    display: none;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid gray;
+    justify-content: end;
+    gap: 10px;
+}
+.result{
+    padding: 20px;
+    display: none;
+    gap: 10px;
+    justify-content: center;
+    background: #fff;
+}
+
